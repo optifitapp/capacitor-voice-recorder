@@ -15,7 +15,7 @@ class CustomMediaRecorder {
         AVNumberOfChannelsKey: 1,
         AVLinearPCMBitDepthKey: 16,
         AVLinearPCMIsBigEndianKey: false,
-        AVLinearPCMIsFloatKey: false
+        AVLinearPCMIsFloatKey: false,
         AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue
     ]
     
