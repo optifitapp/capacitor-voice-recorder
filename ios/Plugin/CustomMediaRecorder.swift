@@ -9,7 +9,7 @@ class CustomMediaRecorder {
     private var originalRecordingSessionCategory: AVAudioSession.Category!
     private var status = CurrentRecordingStatus.NONE
     
-    private let settings = [
+    private let settings: [String: Any] = [
         AVFormatIDKey: Int(kAudioFormatLinearPCM),
         AVSampleRateKey: 44100,
         AVNumberOfChannelsKey: 1,
